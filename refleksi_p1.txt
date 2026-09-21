@@ -1,0 +1,7 @@
+1. Bedanya ada di cara menerjemahkan kodenya. Kalau compiler langsung memproses seluruh kodingan sekaligus jadi file siap jalan, sedangkan interpreter bakal menerjemahkan dan menjalankan kodenya satu per satu baris demi baris. Makanya, program yang dikompilasi biasanya terasa jauh lebih kencang saat dijalankan.
+
+2. Di Teknik Elektro, bahasa C sering banget dipakai buat ngoding mikrokontroler seperti Arduino atau STM32 untuk mengatur sistem otomatis. Selain itu, C juga dipakai buat bikin program pembacaan data sensor listrik secara langsung (real-time). Bahasa C jadi pilihan utama karena ukurannya ringan dan bisa langsung ngobrol sama hardware.
+
+3. Fungsi main() itu ibarat gerbang utama atau titik awal tempat sistem operasi mulai menjalankan program kita. Kalau fungsi ini enggak ada, komputer bakal kebingungan harus mulai dari mana. Hasilnya, program bakal gagal dikompilasi dan memunculkan pesan error "undefined reference to main".
+
+4. Nama variabel yang jelas itu penting banget supaya kodingan gampang dibaca dan enggak bikin bingung saat mau diedit lagi. Apalagi di pengukuran teknik, nama seperti "tegangan_AC" atau "arus_masuk" jauh lebih aman daripada sekadar pakai huruf "a" atau "b". Ini bisa mencegah kita salah masukkan rumus yang bikin perhitungan teknis jadi keliru.
